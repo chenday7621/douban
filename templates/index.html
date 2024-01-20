@@ -1,0 +1,43 @@
+﻿<!doctype html>
+<html  style="background: #5470C6">
+    <head>
+        <meta charset="utf-8">
+        <title>豆瓣图书数据可视化分析</title>
+        <script type="text/javascript" src="../static/js/jquery.js"></script>
+        <script type="text/javascript" src="../static/js/jquery.cxselect.min.js"></script>
+        <script type="text/javascript" src="../static/js/jquery.limarquee.js"></script>
+        <script type="text/javascript" src="../static/js/echarts.min.js"></script>
+        <script type="text/javascript" src="../static/js/js.js"></script>
+        <script type="text/javascript" src="../static/js/controller.js"></script>
+        <link rel="icon" href="../favicon.ico">
+        <link rel="shortcut icon" href="#" />
+        <link rel="stylesheet" href="../static/css/comon0.css">
+    </head>
+    <body>
+        <div>
+            <div class="back"></div>
+            <div class="head">
+                <div class="weather"><span id="showTime"></span></div>
+                <h1>豆瓣图书数据可视化分析系统</h1>
+            </div>
+            <div class="mainbox">
+                <div class="boxall" style="height:500px;width:1000px;margin: auto;margin-top: 5px;">
+                    <div class="alltitle">作者作品平均评分前十四</div>
+                    <div class="navboxall" id="echart1"></div>
+                </div>
+                <div class="boxall" style="height:500px;width:1000px;margin: auto;margin-top: 5px;">
+                    <div class="alltitle">作品评分前十四</div>
+                    <div class="navboxall" id="echart2"></div>
+                </div>
+                <div class="boxall" style="height:500px;width:1000px;margin: auto;margin-top: 5px;">
+                    <div class="alltitle">出版作品数量前十出版社</div>
+                    <div class="navboxall" id="echart3"></div>
+                </div>
+                <div class="boxall" style="height:500px;width:1000px;margin: auto;margin-top: 5px;">
+                    <div class="alltitle">各年份出版书数量</div>
+                    <div class="navboxall" id="echart4"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
